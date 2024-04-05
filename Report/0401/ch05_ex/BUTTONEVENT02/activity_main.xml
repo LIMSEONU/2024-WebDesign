@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/clothingimageView"
+        android:layout_width="420dp"
+        android:layout_height="480dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/img0" />
+    <Button
+        android:id="@+id/colorButton1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Color 1"
+        android:layout_below="@id/clothingimageView"
+
+        />
+    <Button
+        android:id="@+id/colorButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color 2"
+        android:layout_below="@id/clothingimageView"
+        android:layout_toEndOf="@id/colorButton1"
+        android:layout_marginStart="0dp"
+        />
+    <Button
+        android:id="@+id/colorButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color 3"
+        android:layout_below="@id/clothingimageView"
+        android:layout_toEndOf="@id/colorButton2"
+        android:layout_marginStart="0dp"
+        />
+    <Button
+        android:id="@+id/colorButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color 4"
+        android:layout_below="@id/clothingimageView"
+        android:layout_toEndOf="@id/colorButton3"
+        android:layout_marginStart="0dp"
+        />
+
+
+</RelativeLayout>
